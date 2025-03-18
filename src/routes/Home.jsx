@@ -1,6 +1,6 @@
 import { useContext, useState } from 'react';
 
-import { CountdownContext } from '../context/CountDownContext';
+import { CountdownContext } from '../context/CountdownContext';
 
 import { useNavigate } from 'react-router-dom';
 

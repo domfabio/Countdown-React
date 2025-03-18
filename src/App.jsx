@@ -1,11 +1,12 @@
-import './App.css';
-import NewYear from './assets/newyear.jpg';
+import { Outlet } from "react-router-dom";
 
-//router
-import { Outlet } from 'react-router-dom';
+import { useContext } from "react";
 
-import { useContext } from 'react';
-import { CountdownContext } from './context/CountdownContext';
+import { CountdownContext } from "./context/CountdownContext";
+
+import NewYear from "./assets/newyear.jpg";
+
+import "./App.css";
 
 function App() {
   const { event } = useContext(CountdownContext);
@@ -16,14 +17,14 @@ function App() {
 
   return (
     <div
-      className='App'
+      className="App"
       style={
         eventImage
           ? { backgroundImage: `url(${eventImage})` }
           : { backgroundImage: `url(${NewYear})` }
       }
     >
-      <div className='container'>
+      <div className="container">
         <Outlet />
       </div>
     </div>
