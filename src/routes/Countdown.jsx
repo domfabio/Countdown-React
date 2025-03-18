@@ -4,7 +4,7 @@ import { Navigate } from 'react-router-dom';
 
 import { useContext } from 'react';
 
-import useCountdown from '../hooks/useCountDown';
+import useCountdown from "../hooks/useCountdown"
 
 import { CountdownContext } from '../context/CountdownContext';
 
