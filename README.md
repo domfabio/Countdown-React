@@ -32,11 +32,11 @@ O objetivo principal é praticar o uso do **React Router**, **Context API**, **R
 
 Com essa aplicação é possível:
 
-- 🕐 **Definir um evento futuro com data e hora**
-- ⏳ **Exibir uma contagem regressiva em tempo real**
-- 🎨 **Escolher a cor do tema da interface**
+- 🕐 **Definir um evento futuro com título e data**
 - 🖼️ **Inserir imagem de fundo via URL personalizada**
+- 🎨 **Escolher a cor do tema da interface**
 - 🔁 **Redirecionamento entre páginas com React Router**
+- ⏳ **Exibir uma contagem regressiva em tempo real**
 
 ---
 
@@ -45,7 +45,7 @@ Com essa aplicação é possível:
 <div align="center">
 
   <p>
-  <img src="./public/screen-movie.gif" width="600px"> 
+  <img src="./public/screen-movie.gif" width="900px"> 
   </p>
 
   <a href="https://cowntdown-livid.vercel.app/">→ Ver Projeto Online 🔗</a>
